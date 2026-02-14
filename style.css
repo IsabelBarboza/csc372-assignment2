@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    line-height: 1.6;
+}
+
+header{
+    background-color: rgb(117, 48, 46);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;  
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+#intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: rgb(252, 206, 144);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(77, 26, 25);
+}
+
+p {
+    font-size: 16px;
+    margin-bottom:  15px;
+}
+
+.restaurant {
+    background-color: rgb(234, 208, 171);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.restaurant p{
+    max-width: 700px;
+    margin: 10px auto 20px auto; 
+    text-align: center;
+    font-style: italic;
+}
+
+.restaurant img{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+
+}
+
+.restaurant article {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    box-shadow: 0 2px 5px rgba(227, 57, 14, 0.718);
+    transition: transform 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+aside{
+    background-color: rgb(217, 196, 148);
+    padding: 15px;
+    border-radius: 20px;
+    border-left: 6px solid rgb(9, 10, 22);
+}
+
+footer{
+    background-color: rgb(7, 36, 64);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
