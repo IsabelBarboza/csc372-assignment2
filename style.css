@@ -117,3 +117,42 @@ footer{
     padding: 15px;
     margin-top: 40px;
 }
+
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: rgb(54, 55, 40);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.added {
+    border: 3px solid rgb(77, 38, 25);
+    background-color: rgb(239, 198, 103);
+}
+
+#favorites {
+    background-color: rgb(219, 186, 51);
+    padding:  20px;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+#favorites p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+#favorites li {
+    margin-bottom: 8px;
+} 
+#favorites ul {
+    list-style-type: none;
+    padding: 0;
+}
+
